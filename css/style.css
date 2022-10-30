@@ -624,42 +624,6 @@ header .projyear {
 }
 
 
-
-.esclusionimaincontainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 90%;
-    margin-top: 10%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.esclusionicontainerleft {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    padding-right: 5%;
-}
-.esclusionicontainerright {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: left;
-    position: relative;
-    width: 40%;
-    padding-left: 5%;
-}
-
-.esclusionicontainerleft img {
-    width: 100%;
-}
-
 strong {
     font-weight: 600;
 }
@@ -1030,48 +994,7 @@ strong {
     .projexplright {
         padding-left: 0% !important;
     }
-    .esclusionimaincontainer {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 95%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .esclusionicontainerleft {
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0%;
-        margin-bottom: 5%;
-    }
-    .esclusionicontainerright {
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0%;
-        align-items: center;
-        text-align: left;
-    }
-    .esclnumb {
-        margin-bottom: 2%;
-        font-size: 1.5em;
-    }
-    .escltext {
-        font-size: 1.2em;
-        line-height: 1.4em;
-    }
-    .esclcontrightII {
-        padding: 0%;
-    }
     
-    .esclcontleftII {
-        padding: 0%;
-    }
-    .esclcontII {
-        display: flex;
-        flex-direction: column-reverse;
-    }
 
     .lastesclustext {
         width: 70%;
