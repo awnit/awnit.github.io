@@ -286,6 +286,23 @@ a:hover {
 }
 
 
+.projectcontainer {
+    position: relative;
+    column-count: 2;
+    padding: 0% 10% 0% 10%;
+}
+
+.projectimage {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.projectcontainer img {
+    width: 100%;
+}
+
+
 footer {
     margin-top: 15%;
 }
@@ -391,13 +408,6 @@ footer {
 .continue a:hover {
     color: #00979e;
 }
-
-.footerbar p {
-    font-family: 'Montaserrat', sans-serif;
-    font-size: 1.5em;
-    font-weight: 100;
-}
-
 
 
 .containerfooter {
@@ -544,14 +554,14 @@ div.rightfooter:hover p {
 
 .insideprojheader {
     position: relative;
-    height: 100vh;
+    height: 40vh;
 }
 .projheadertitlecont {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    height: 100%;
+    height: 80%;
 }
 .projh1cont {
     width: 100%;
@@ -691,194 +701,10 @@ strong {
     width: 100%;
 }
 
-.ipsmaincontainervert {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 60%;
-    margin-top: 10%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.ipscontainerver1 {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding-bottom: 5%;
-}
-.ipscontainerver1 img {
-    width: 100%;
-}
-
-.ipscontainerver2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: left;
-    position: relative;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: left;
-    text-align: left;
-}
-
-
-.ipslastesclustext {
-    width: 65%;
-    margin-top: 5%;
-    margin-right: 30%;
-    margin-left: 10%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: left;
-    text-align: left;
-}
 
 
 
-.ipsmaincontainernowr {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 20%;
-    margin-right: auto;
-    margin-left: auto;
-}
 
-.ipscontainerleftnowr {
-    width: 48%;
-    padding-right: 2%;
-}
-.ipscontainerrightnowr {
-    width: 48%;
-    padding-left: 2%;
-}
-
-.ipscontainerleftnowr img {
-    width: 100%;
-    height: 100%;
-}
-.ipscontainerrightnowr img {
-    width: 100%;
-    height: 100%;
-}
-
-
-.ipsverticalcontainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 60%;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.ipsverticalcontainertop {
-    width: 100%;
-    padding-bottom: 15%;
-}
-.ipsverticalcontainerbottom {
-    width: 100%;
-}
-.ipsverticalcontainertop img {
-    width: 100%;
-}
-.ipsverticalcontainerbottom img {
-    width: 100%;
-}
-
-.ipscontainerbottom {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.ipscontainerbottomleft {
-    width: 25%;
-    padding-right: 2.5%;
-}
-.ipscontainerbottomright {
-    width: 70%;
-    padding-left: 2.5%;
-}
-.ipscontainerbottomleft img {
-    width: 100%;
-}
-.ipscontainerbottomright img {
-    width: 100%;
-}
-
-.inverseipscontainerbottom {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.inverseipscontainerbottomleft {
-    width: 70%;
-    padding-right: 2.5%;
-}
-.inverseipscontainerbottomright {
-    width: 25%;
-    padding-left: 2.5%;
-}
-.inverseipscontainerbottomleft img {
-    width: 100%;
-}
-.inverseipscontainerbottomright img {
-    width: 100%;
-}
-
-
-.ipsorizimg {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 90%;
-}
-
-.ipsdoubleimgcontainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;  
-    width: 70%;
-    margin-top: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-.ipsdoubleimgleft {
-    width: 97.5%;
-    padding-right: 2.5%;
-}
-.ipsdoubleimgright {
-    width: 97.5%;
-    padding-left: 2.5%;
-}
-.ipsdoubleimgleft img {
-    width: 100%;
-}
-.ipsdoubleimgright img {
-    width: 100%;
-}
 
 .singleorizimg {
     width: 60%;
@@ -1156,7 +982,7 @@ strong {
         height: 40vh;
     }
     .projheadertitlecont {
-        height: 100%;
+        height: 80%;
     }
 
     .banneresclusion {
@@ -1325,7 +1151,16 @@ strong {
     .portfolioimage {
         margin-bottom: 10%;
     }
-
+    .projectcontainer {
+        column-count: 1;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0%;
+    }
+    .projectimage {
+        margin-bottom: 50%;
+    }
     .containerfooter {
         height: 20vh;
     }
@@ -1365,9 +1200,6 @@ strong {
     .continue p{
         font-size: 0.6em;
         font-weight: 500;
-    }
-    .footerbar {
-        display: none;
     }
     .contactfooter p {
         letter-spacing: 0.1vw;
