@@ -288,7 +288,7 @@ a:hover {
 
 .projectcontainer {
     position: relative;
-    column-count: 3;
+    column-count: 2;
     padding: 0% 10% 0% 10%;
 }
 
@@ -573,6 +573,13 @@ div.rightfooter:hover p {
     color: black;
     letter-spacing: 0.2vw;
     text-align: center;
+}
+.h2proj {
+    font-size: 5vw;
+    font-weight: 200;
+    color: grey;
+    letter-spacing: 0.2vw;
+    text-align: left;
 }
 header .projyear {
     width: 100%;
