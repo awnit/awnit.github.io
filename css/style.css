@@ -574,13 +574,25 @@ div.rightfooter:hover p {
     letter-spacing: 0.2vw;
     text-align: center;
 }
-.h2proj {
-    font-size: 5vw;
-    font-weight: 200;
-    color: grey;
-    letter-spacing: 0.2vw;
-    text-align: left;
-}
+@media only screen and (max-width: 900px) {
+    .h2proj {
+        font-size: 5vw;
+        font-weight: 200;
+        color: grey;
+        letter-spacing: 0.2vw;
+        text-align: left;
+    }
+ }
+ @media only screen and (max-width: 575px) {
+    .h2proj {
+        font-size: 5vw;
+        font-weight: 200;
+        color: grey;
+        letter-spacing: 0.2vw;
+        text-align: left;
+        padding-top: 50px;
+    }
+ }
 header .projyear {
     width: 100%;
     text-align: center;
@@ -1165,9 +1177,17 @@ strong {
         margin-right: auto;
         padding: 0%;
     }
-    .projectimage {
-        margin-bottom: 50%;
-    }
+    @media only screen and (max-width: 800px) {
+        .projectimage {
+            margin-bottom: 50%;
+        }
+     }
+     @media only screen and (max-width: 575.98px) {
+        .projectimage {
+            margin-bottom: 5%;
+        }
+     }
+    
     .containerfooter {
         height: 20vh;
     }
